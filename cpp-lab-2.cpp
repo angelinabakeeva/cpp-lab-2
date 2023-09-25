@@ -12,7 +12,7 @@ long double s_f(int q)
     return q * s_f(q - 2);
 }
 
-long double t_one(double x) {
+long double t_one(long double x) {
     long double s1 = 0;
     long double s2 = 0;
     for (int k = 0; k <= 10; k ++)
